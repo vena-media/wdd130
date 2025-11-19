@@ -55,6 +55,12 @@ article {
     height: auto;
 }
 
+.hero article {
+    background-color: var(--accent2-color);
+    width: 100%;
+    border: #000;
+    margin: auto;
+}
 
 h1 {
     position: absolute;
@@ -66,8 +72,6 @@ h1 {
     background-color: var(--accent1-color);
     color: #fefefe;
 }
-
-
 
 .article {
     position: absolute;
@@ -82,7 +86,9 @@ h1 {
 }
 
 
+
+
 h2 {
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     padding: 10px;
 }
