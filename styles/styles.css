@@ -3,8 +3,8 @@ main {
 }
 
 nav {
-    background-color: #000;
-    padding: auto;
+    background-color: #eee;
+    padding: 2px;
 }
 
 nav a {
