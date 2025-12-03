@@ -12,24 +12,26 @@ form {
 .exampleCode {
     background-color: rgb(61, 61, 61);
     color: white;
-    padding-left: 5rem;
-    margin-left: 3rem;
-    margin-right: 20rem;
-    align-content: space-around;
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-right: 1rem;
+    
 }
 
 button {
     background-color:rgb(28, 28, 126);
     color: rgb(244, 245, 245);
     border-radius: .3rem;
-    padding: .50rem;
-    margin: 1rem;
+    padding: 2rem;
+    margin: 2rem;
     border: none;
 }
 
-label, input, textarea, select, button {
-    margin: .5rem;
+label, input, textarea, select,button {
+    margin: .7rem;
     font-size: 1.5rem;
+    padding: .5rem;
+    
 }
 
 h1 {
