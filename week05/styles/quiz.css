@@ -1,0 +1,37 @@
+* {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgb(218, 218, 218);
+    display: grid;
+    padding: 5rem;
+}
+
+.exampleCode {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding-left: 5rem;
+    margin-left: 3rem;
+    margin-right: 20rem;
+    align-content: space-around;
+}
+
+button {
+    background-color:rgb(28, 28, 126);
+    color: rgb(244, 245, 245);
+    border-radius: .3rem;
+    padding: .50rem;
+    margin: 1rem;
+    border: none;
+}
+
+label, input, textarea, select, button {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+}
