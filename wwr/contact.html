@@ -37,84 +37,85 @@
                     allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
-        </section>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
 
-        <section class="employees">
-            <h3>Meet Our Team</h3>
+                <form>
+                    <label>
+                        Full Name:
+                        <input type="text" name="fullname" required>
+                    </label>
 
-            <div class="employee-grid">
-                <figure>
-                    <img src="images/employee1.jpg" alt="John Lead Guide">
-                    <figcaption>John - Lead Guide</figcaption>
-                </figure>
+                    <label>
+                        Email Address:
+                        <input type="email" name="email" required>
+                    </label>
 
-                <figure>
-                    <img src="images/employee2.jpg" alt="Sarah  Safety Coordinator">
-                    <figcaption>Sarah - Safety Coordinator</figcaption>
-                </figure>
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
 
-                <figure>
-                    <img src="images/employee3.jpg" alt="Mike Tour Scheduler">
-                    <figcaption>Mike - Tour Scheduler</figcaption>
-                </figure>
+                        <label>
+                            <input type="radio" name="purpose" value="inquiry" required>
+                            General Inquiry
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="reservation" required>
+                            Reservation Question
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="website" required>
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+
+                    <label>
+                        Message:
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="subscribe">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
-        </section>
-        <section class="contact-form">
-            <h3>Send Us a Message</h3>
 
-            <form>
-                <label>
-                    Full Name:
-                    <input type="text" name="fullname" required>
-                </label>
+            <section class="employees">
+                <h3>Meet Our Team</h3>
 
-                <label>
-                    Email Address:
-                    <input type="email" name="email" required>
-                </label>
+                <div class="employee-grid">
+                    <figure>
+                        <img src="images/employee1.jpeg" alt="John Lead Guide">
+                        <figcaption>John - Lead Guide</figcaption>
+                    </figure>
 
-                <fieldset>
-                    <legend>Purpose of Message</legend>
+                    <figure>
+                        <img src="images/employee2.jpeg" alt="Sarah  Safety Coordinator">
+                        <figcaption>Sarah - Safety Coordinator</figcaption>
+                    </figure>
 
-                    <label>
-                        <input type="radio" name="purpose" value="inquiry" required>
-                        General Inquiry
-                    </label>
+                    <figure>
+                        <img src="images/employee3.jpeg" alt="Mike Tour Scheduler">
+                        <figcaption>Mike - Tour Scheduler</figcaption>
+                    </figure>
+                </div>
+            </section>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation" required>
-                        Reservation Question
-                    </label>
-
-                    <label>
-                        <input type="radio" name="purpose" value="website" required>
-                        Website Suggestion
-                    </label>
-                </fieldset>
-
-                <label>
-                    Message:
-                    <textarea name="message" rows="5" required></textarea>
-                </label>
-
-                <label class="checkbox">
-                    <input type="checkbox" name="subscribe">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
     </main>
     <footer>
-        <div class="footer-text"></div>
-        <p>&copy; 2025 White Water Rafting Adventures</p>
+        <nav>
+            <p>&copy; 2025 White Water Rafting Adventures</p>
+        </nav>
         <div class="socialmedia">
             <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
             <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
             <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
         </div>
-        </div>
+
 
     </footer>
 </body>
