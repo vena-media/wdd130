@@ -263,10 +263,6 @@ footer .socialmedia p {
     
 }
 
-/* h2 {
-    background-color: var(--accent2-color);
-    padding: 10px;
-} */
 
 form {
     display: flex;
@@ -283,9 +279,6 @@ form {
     gap: 2.5em;
     flex: 1;
     display: flex;
-    /* flex-direction: column; */
-    
-    /* align-items: right; */
 }
 
 .company-info,
@@ -354,13 +347,6 @@ legend {
     padding: 0 .5rem;
 }
 
-/* h3 {
-    padding: 5px;
-    top: 100px;
-    left: 100px;
-    color: white;
-    text-align: center;
-} */
 
 button[type="submit"] {
     padding: 12px;
@@ -375,10 +361,6 @@ button[type="submit"]:hover {
     background-color: #094f92;
 }
 
-/* .nav {
-    display: flex;
-    list-style: none;
-} */
 
 footer {
     max-width: 1000px;
@@ -404,24 +386,8 @@ footer .socialmedia img {
     height: auto;
 }
 
-/* footer .socialmedia {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1rem 2rem;
-    /* gap: 0.2rem; */
-    /* flex-wrap: wrap;
-    background-color: var(--accent2-color);
-} */
-
-/* footer .socialmedia .icons {
-    display: flex;
-    gap: 0.3rem;
-    width: 24px;
-    height: auto;
-   
+.home-hero {
+    width: 100%;
+    position: relative;
 }
-footer .socialmedia p {
-    margin: 0;                  
-    white-space: nowrap; 
-}  */
+
