@@ -386,8 +386,16 @@ footer .socialmedia img {
     height: auto;
 }
 
-.home-hero {
+.hero-home {
     width: 100%;
     position: relative;
 }
 
+.hero-home h1 {
+    position: absolute;
+    width: 99%;
+    top: 5%;
+    padding: 10px;
+    left: 0 33%;
+    
+}
