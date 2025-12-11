@@ -25,64 +25,65 @@
         </nav>
     </header>
     <main>
-        <h1> White Water Rafting With Vena </h1>
         <section class="company-info">
+            <h1> White Water Rafting With Vena </h1>
             <p><strong>Address:</strong> 123 River Road, Rapids City, Colorado</p>
             <p><strong>Phone:</strong> +1 (800) 555-RAFT</p>
             <p><strong>Email:</strong> info@raftingadventures.com</p>
 
-            <div class="map-container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9952042830297!2d-74.00601508459383!3d40.71277627933043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjguMCJX!5e0!3m2!1sen!2sus!4v1615140187965"
-                    allowfullscreen="" loading="lazy">
-                </iframe>
-            </div>
-            <div class="contact-form">
-                <!-- <h3>Send Us a Message</h3> -->
-                <form>
-                    <label>
-                        Full Name:
-                        <input type="text" name="fullname" required>
-                    </label>
-
-                    <label>
-                        Email Address:
-                        <input type="email" name="email" required>
-                    </label>
-
-                    <fieldset>
-                        <legend>Purpose of Message</legend>
-
+            <section class="map-form">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9952042830297!2d-74.00601508459383!3d40.71277627933043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMjguMCJX!5e0!3m2!1sen!2sus!4v1615140187965"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <div class="contact-form">
+                    <!-- <h3>Send Us a Message</h3> -->
+                    <form>
                         <label>
-                            <input type="radio" name="purpose" value="inquiry" required>
-                            General Inquiry
+                            Full Name:
+                            <input type="text" name="fullname" required>
                         </label>
 
                         <label>
-                            <input type="radio" name="purpose" value="reservation" required>
-                            Reservation Question
+                            Email Address:
+                            <input type="email" name="email" required>
                         </label>
+
+                        <fieldset>
+                            <legend>Purpose of Message</legend>
+
+                            <label>
+                                <input type="radio" name="purpose" value="inquiry" required>
+                                General Inquiry
+                            </label>
+
+                            <label>
+                                <input type="radio" name="purpose" value="reservation" required>
+                                Reservation Question
+                            </label>
+
+                            <label>
+                                <input type="radio" name="purpose" value="website" required>
+                                Website Suggestion
+                            </label>
+                        </fieldset>
 
                         <label>
-                            <input type="radio" name="purpose" value="website" required>
-                            Website Suggestion
+                            Message:
+                            <textarea name="message" rows="5" required></textarea>
                         </label>
-                    </fieldset>
 
-                    <label>
-                        Message:
-                        <textarea name="message" rows="5" required></textarea>
-                    </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="subscribe">
+                            Please subscribe me to the monthly newsletter
+                        </label>
 
-                    <label class="checkbox">
-                        <input type="checkbox" name="subscribe">
-                        Please subscribe me to the monthly newsletter
-                    </label>
-
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
             <section class="employees">
                 <h3>Meet Our Team</h3>
 
