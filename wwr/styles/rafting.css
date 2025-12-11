@@ -81,7 +81,7 @@ header img {
     border: 0.5px solid #fff;
     margin: 0;
     text-decoration: none;
-    font-size: 1
+    font-size: 1px
 }
 
 nav a:hover {
@@ -116,7 +116,7 @@ p,section,article {
     width: 99%;
     top: 5%;
     padding: 10px;
-    left: 0 33%;
+    /* left: 0 33%; */
 }
 
 .hero h3 {
@@ -234,7 +234,7 @@ h3 {
 
 .adventure-row figcaption {
     margin-top: 0.5rem;
-    font-size: 0.9;
+    font-size: 0.9px;
     color: var(--accent2-color);
 }
 
@@ -310,7 +310,7 @@ form {
 .map-container iframe {
     width: 300px;
     height: 300px;
-    border: 1;
+    border: 1px;
     border-radius: 0.5rem;
     float: left;
     margin-right: 10rem;
@@ -395,6 +395,7 @@ footer .socialmedia {
     display: flex;
     gap: 1rem;
     align-items: center;
+    text-decoration: none;
 }
 
 footer .socialmedia img {
@@ -423,7 +424,7 @@ footer .socialmedia img {
     width: 100%;
     top: 40%;
     padding: 20px;
-    left: 0 33%;
+    /* left: 0 33%; */
     font-size: 50px;
 }
 
