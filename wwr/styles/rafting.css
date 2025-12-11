@@ -42,7 +42,6 @@ header {
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-
     max-width: 100%;
     margin: 0.1rem auto;
 }
@@ -81,7 +80,7 @@ header img {
     border: 0.5px solid #fff;
     margin: 0;
     text-decoration: none;
-    font-size: 1px
+    font-size: 20px
 }
 
 nav a:hover {
@@ -239,7 +238,7 @@ h3 {
 }
 
 
-footer .socialmedia .icons {
+/* footer .socialmedia .icons {
     display: flex;
     gap: 0.3rem;
     width: 24px;
@@ -249,7 +248,7 @@ footer .socialmedia .icons {
 footer .socialmedia p {
     margin: 0;                  
     white-space: nowrap; 
-} 
+}  */
 
 .company-info {
     text-align: center;
