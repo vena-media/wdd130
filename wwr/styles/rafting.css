@@ -119,6 +119,11 @@ p,section,article {
     left: 0 33%;
 }
 
+.hero h3 {
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
+
 .hero article {
     position: absolute; 
     background-color: var(--accent2-color);
